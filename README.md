@@ -1,7 +1,7 @@
 # Use this as your quick reference guide to Git!
 Here is how:
 
-### To initialise a project
+## To initialise a project
 - Make a dir where you want to build a project.
 - To start/initialise the project use command: <br>
 > git init
