@@ -28,10 +28,24 @@ Here is how:
 - To commit a changes [saves locally]
 	> git commit -m "This is the title of the commit" -m "this is the description of the commit"
 
-- To un-commit a file:
-	> git reset HEAD~1 
+- To un-commit the last committed file:
+	> git reset HEAD~1
 	- HEAD is just a pointer to the last commit
 	- ~1 means go back to one commit back
+
+- To un-commit a specific commit:
+  - Get the hash of the commit by
+    > git log
+
+  - Copy the hash and then
+    > git reset `hash`
+
+  <b>NB! this won't push changes to remote dir</b>
+
+- <b> To remove commits after a certain commit <i>(rolling back in time)</i> <b>
+  > git reser --hard hash
+
+  <b> CAREFUL! OKAY? I AM SURE YOU KNOW WHAT YOU'RE DOING. :)  \\__(0_0)__/</b>
 
 - To push the changes
 	> git push origin master <br>
