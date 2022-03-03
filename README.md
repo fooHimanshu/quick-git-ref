@@ -43,7 +43,7 @@ Here is how:
   <b>NB! this won't push changes to remote dir</b>
 
 - <b> To remove commits after a certain commit <i>(rolling back in time)</i> <b>
-  > git reser --hard hash
+  > git reset --hard hash
 
   <b> CAREFUL! OKAY? I AM SURE YOU KNOW WHAT YOU'RE DOING. :)  \\__(0_0)__/</b>
 
