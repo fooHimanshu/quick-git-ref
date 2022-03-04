@@ -1,5 +1,6 @@
 # A quick reference guide to Git Branches!
--[Check the basic commands instead?](./README.md)
+
+- [Check the basic commands instead?](./README.md)
 
 ## Basic branch ops:
 
