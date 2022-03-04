@@ -13,6 +13,9 @@ Here is how:
 	> git remote add origin git@something:fooHimanshu/something
 - Make sure that you have <b>Generated and Connected the SSH key to github</b>. For ref: <br>
 	> https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
+- If you were able to connect last time but not this time, try the following:
+ 	> ssh-agent -s <br>
+ 	> ssh-add ~/.ssh/id_rsa
 
 ## OR Clone
 - Use the command: <br>
