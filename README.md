@@ -1,4 +1,7 @@
 # Use this as your quick reference guide to Git!
+
+- [Check branch ops instead?](./BRANCH.md)
+
 Here is how:
 
 ## To either, initialise a project
